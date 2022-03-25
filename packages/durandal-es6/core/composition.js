@@ -565,6 +565,8 @@ function CompositionModule() {
                         };
 
                         return settings;
+                    }else{
+                        settings = Object.assign({}, settings);
                     }
 
                     if (!activatorPresent && settings.model) {
